@@ -8,7 +8,7 @@ def die(msg)
 end
 
 def usage()
-  die("Usage: ruby flexnet-poc.rb <host> <lmdown|lmreread|version|license|path|dlist> [login]")
+  die("Usage: ruby doltool.rb <host> <lmdown|lmreread|version|license|path|dlist> [login]")
 end
 
 HOST = ARGV[0] || usage()
